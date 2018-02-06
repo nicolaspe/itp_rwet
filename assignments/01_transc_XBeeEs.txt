@@ -1,0 +1,6 @@
+Hola, les presento un avance del proyecto. Acá hay un XBee conectado, que es el transmisor.
+Acá hay otro XBee conectado, que es el receptor. Y aquí, la única razón por la que están conectados acá es para tener el poder.
+
+Entonces, la gracia es que presiono este botón -este LED es para saber que está pasando la señal, no más- y se prende este LED de acá, automáticamente.
+
+Esto, porque viene la señal, la transmite al XBee, a este otro XBee y hace que se prenda el LED. Y funciona.

@@ -1,0 +1,5 @@
+Hi, let me show you some progress in our project. Here's an XBee, the transmitter. Here's another XBee, the receiver. And the only reason they're connected here is to transmit the power.
+
+So, the point is that I press this button -this LED is here only to show that the signal is coming through- and this other LED lights up automatically.
+
+This happens, because the signal comes through here, reaches the XBee, gets send to the other XBee, and lights up the other LED. And it works.

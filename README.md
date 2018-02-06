@@ -1,2 +1,2 @@
-# itp_rwet
-Electronic Poetry - Notes, assignments and research for Reading and Writing Electronic Text - ITP Spring 2018
+# itp_etext
+Repository for the class Reading &amp; Writing Electronic Text - ITP, Spring 2018
