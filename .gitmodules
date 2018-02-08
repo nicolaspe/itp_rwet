@@ -1,0 +1,3 @@
+[submodule "rwet"]
+	path = rwet
+	url = https://github.com/aparrish/rwet.git
