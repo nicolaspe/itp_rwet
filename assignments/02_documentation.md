@@ -2,8 +2,10 @@
 
 For this assignment, we had to create our own poetry generator by modifying some well-known that already exist. The following ones were recoded from [Allison Parrish's](http://www.decontextualize.com/) [poetry generator examples](https://github.com/aparrish/rwet/blob/master/some-poetry-generators.ipynb).
 
+Links to the [GitHub repository](https://github.com/nicolaspe/itp_rwet) & [jupyter notebook](https://github.com/nicolaspe/itp_rwet/blob/master/notebook/02_poetry_generation.ipynb).
 
-## Dadaist terror
+
+## Dadaist forgetfulness
 My first approach was to use the Dadaist poem generator with on of my own texts, in order to loosen myself and start experimenting. I chose ["Sometimes I forget"](https://inintocable.wordpress.com/2017/09/13/sometimes-i-forget/), a poem I wrote last September, for this experiment. I edited output by creating paragraphs in an attempt to add some cadence and hint as to how I'd read it.
 
 ```
@@ -42,7 +44,21 @@ I did a reinvention of [Nick Montfort](http://nickm.com/)'s [Taroko Gorge](http:
 
 My writing is often cathartic, taking elements that wander through my mind and exaggerating, deforming and mixing them with completely fictional fragments. As the words are selected by the algorithm, I tried to create a set of objects, descriptions and actions that go back and forth happiness and misery.
 
-The code is divided in five functions: one to generate the introductory line, another for the verses, the bridge and outro and the last one to generate the poem itself.
+```
+person = ['my', 'her', 'their', 'his', 'your', 'my', '...', 'excessive']
+possession = ['feelings', 'memories', 'faces', 'cigars', 'coins', 'fears', 'crisis', 'smiles', 'arguments']
+adjectives = ['awake', 'naked', 'insane', 'hidden', 'suppressed', 'intense', 'passionate', 'free', 'noble']
+
+imperative = ['excuse', 'bury', 'incinerate', 'stamp', 'swim through', 'read', 'listen to', 'enter', 'face']
+room = ['bed', 'table', 'chair', 'desk', 'floor', 'vase', 'pen', 'radio', 'VCR', 'pillow', 'clock', 'book', 'me']
+
+interlude = ['rejection', 'acceptance', 'breaking down', 'enlightenment', 'destruction', 'wounded']
+reflection = ['stay with', 'look at', 'sleep next to', 'hold', 'steal', 'break', "don't forget"]
+coda = ['leave', 'stay', 'dream', 'just die']
+```
+
+
+Then, the code is divided in five functions: one to generate the introductory line, another for the verses, the bridge and outro, which get a different assortment of words from one or more of the arrays (to merge arrays, simply use the `+` operator). Lastly, there's a function to generate the poem itself. Each stanza has a random number of lines and follows a specific structure with variations on each part.
 
 ```
 My coins are noble
@@ -90,6 +106,3 @@ My memories are passionate
    hold the table
    dream
 ```
-
-
-The jupyter notebook file can be seen [here](https://github.com/nicolaspe/itp_rwet/blob/master/notebook/02_poetry_generation.ipynb).
