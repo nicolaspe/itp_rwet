@@ -1,6 +1,7 @@
 # Flowing frustrations in rebellion
 For this assignment, we had to create a text using at least two source texts and the `list` variable type. You can see all the source files in my [GitHub repository](https://github.com/nicolaspe/itp_rwet/tree/master/notebook)
 
+
 ## Sources
 In an attempt to join my exploration of authors and topics, I chose some works by the poet Eileen Myles. I read her autobiographical book "Chelsea Girls" last year, and I loved her writing. I used her poems "Peanut Butter" and "Each Defeat". At the same time, I used Emmeline Pankhurst's speech "I Incite this Meeting to Rebellion" as a bank of words.
 
@@ -22,6 +23,8 @@ I am always hungry
 Afterwards, I corrected this mistake and added the possibility of incorporating the overflowing text (result of cutting the lines to a certain length) into the next line.
 
 Even though the code kept getting more and more complex, the results did not please me at all. It took me a long time to have an idea of what to do, but having it turn out so bad was kind of frustrating. I wanted to make the text flow and maybe my ideas should do that too.
+
+(This first jupyter notebook can be found [here](https://github.com/nicolaspe/itp_rwet/blob/master/notebook/a03a_structures.ipynb))
 
 
 ### Flowing poems
@@ -53,8 +56,10 @@ teach important my child
   Chartists
 than And sacrifice other dared
 the mail.
-
 ```
+
+(This jupyter notebook can be found [here](https://github.com/nicolaspe/itp_rwet/blob/master/notebook/a03b_generative_flow.ipynb))
+
 
 ## Afterthoughts
 I feel like I have to learn about natural language processing in order to make stuff that at least makes some sense (or stuff that I could build some sense into). I started using the `nltk` library, but I need to get more into that to use it correctly (specifically the tagging... It failed when I tried to use the `pos_tag()` function).
