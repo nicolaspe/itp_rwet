@@ -1,4 +1,5 @@
 # Flowing frustrations in rebellion
+For this assignment, we had to create a text using at least two source texts and the `list` variable type. You can see all the source files in my [GitHub repository](https://github.com/nicolaspe/itp_rwet/tree/master/notebook)
 
 ## Sources
 In an attempt to join my exploration of authors and topics, I chose some works by the poet Eileen Myles. I read her autobiographical book "Chelsea Girls" last year, and I loved her writing. I used her poems "Peanut Butter" and "Each Defeat". At the same time, I used Emmeline Pankhurst's speech "I Incite this Meeting to Rebellion" as a bank of words.
