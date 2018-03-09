@@ -6,9 +6,8 @@ I wanted to use this assignment as an exploration of my anxieties, of my fears, 
 
 I will generate six different lines for the poem, which will be mixed according to the result of a [dragon-curve](https://en.wikipedia.org/wiki/Dragon_curve). In order to reflect the prevalence of my fears, that phrase will shape the whole stanza. All the text will be a column with the width of the selected fear. It will potentially be the only phrase that fits the column perfectly, bringing it to the spotlight. This form, is a combination of a *polyline* (using only lines from a small list) and a *homonoline* (made up term (?) where every line has the same length). It is worth noting that apart from randomly selecting the lines, the resulting poem is always going to be the same thanks to the deterministic approach taken to build it.
 
+Links to: [Jupyter notebook](https://github.com/nicolaspe/itp_rwet/blob/master/notebook/a04_forms.ipynb) | [GitHub repository](https://github.com/nicolaspe/itp_rwet/)
 
-<br>
-The 
 
 <br>
 ## Anxiety as a resource
