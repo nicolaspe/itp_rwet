@@ -1,3 +1,10 @@
 .DS_Store
-notebook/.ipynb_checkpoints
 rwet
+notebook/.ipynb_checkpoints
+notebook/.Python
+notebook/bin
+notebook/lib
+notebook/man
+notebook/share
+notebook/etc
+notebook/include
