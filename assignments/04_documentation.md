@@ -254,7 +254,7 @@ vive
 
 ### *letting you down, not traveling*
 ```
-my fear of
+     my fear of
 letting you down
 keeps me from t
 raveling even wh
@@ -311,7 +311,7 @@ illiant
 
 ### *invisible, not singing*
 ```
-my fear of
+    my fear of
 being invisible
 it kept me fro
 m singing even
